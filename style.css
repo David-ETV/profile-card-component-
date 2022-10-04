@@ -109,17 +109,17 @@ body {
   font-size: 18px;
   font-family: 'Kumbh Sans', sans-serif;
 }
-.boob1{
-  
-  left: 0;
-  top: 0;
-  transform: rotate(-181deg);
-}
+.img1{
+  position: absolute;
+  top: -32rem;
+  left: -47rem;
+  rotate: -28deg;
+ }
 .boob2{
   right: 0;
   bottom: 0;
 }
-.boob1,
+
 .boob2{
   position: absolute;
   
@@ -196,15 +196,14 @@ strong,
     top: -68rem;
     left: -63rem;
   }
- .uno{
-  position: absolute;
-  width: 103rem;
-  transform: rotateX(180deg);
-  rotate: 286deg;
-  height: 61rem;
- }
+ 
  .dos{
   width: 45rem;
   height: 25rem;
+ }
+ .img1{
+  position: absolute;
+  top: -31rem;
+  left: -18rem;
  }
 }
