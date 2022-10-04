@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@600&family=Outfit:wght@300;400;600&family=Overpass:wght@400;700&family=Red+Hat+Display:ital,wght@0,700;0,900;1,500&display=swap');
+
+:root{
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --Dark-gray: hsl(0, 0%, 59%);
+}
+/* HTML5 Reset Stylesheet*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Dark-cyan);
+  min-height: 100vh;
+  line-height:1;
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+.boob1{
+  
+  left: 0;
+  top: 0;
+  transform: rotate(-181deg);
+}
+.boob2{
+  right: 0;
+  bottom: 0;
+}
+.boob1,
+.boob2{
+  position: absolute;
+  
+}
+
+section{
+  position: relative;
+  max-width: 22rem;
+  margin: 20px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+.img-card{
+  width: 100%;
+  min-height: 9rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.profile{
+  position: absolute;
+  width: 100%;
+  top: 21%;
+  
+}
+.profile img{
+  width: 6.5rem;
+  height: 6.5rem;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+
+strong{
+  margin-left: 10px;
+}
+
+.text{
+  letter-spacing: -.5px;
+}
+.title .text{
+  margin-bottom: 2rem;
+}
+strong,
+.text
+{
+  color: var(--Dark-gray);
+  line-height: 1.8;
+  font-size: calc(.8em + .7vw);
+}
+.title{
+  margin-top: 4rem;
+  font-size: calc(1em + 1vw);
+}
+.contain{
+  display: flex;
+  border-top: 1px solid var(--Dark-gray);
+  margin: 2rem 0;
+  height: 5rem;
+  justify-content: space-around;
+  align-items: self-end;
+  padding: 0 1.5rem 1rem 1.5rem;
+}
+
+@media(min-width:600px){
+  .profile{
+    top: 20%;
+  }
+  body{
+    font-size: 8px;
+  }
+  .boob1{
+    position: relative;
+    top: -68rem;
+    left: -63rem;
+  }
+ .uno{
+  position: absolute;
+  width: 103rem;
+  transform: rotateX(180deg);
+  rotate: 286deg;
+  height: 61rem;
+ }
+ .dos{
+  width: 45rem;
+  height: 25rem;
+ }
+}
